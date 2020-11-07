@@ -425,7 +425,7 @@ body { font-family: 'Roboto', sans-serif !important; }
 
 .site-header { border: none; background-color: #f4f4f245; padding: 1rem; }
 
-.site-title, .site-title:visited { color: #ff8237 !important; }
+.site-title, .site-title:visited, .post-title { color: #ff8237 !important; }
 
 ul.post-list li a.post-link, .site-title { color: #ff8237; text-decoration: none; font-weight: bolder; font-size: 1.5rem; }
 
