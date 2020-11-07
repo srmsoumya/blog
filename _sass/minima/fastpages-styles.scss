@@ -1,4 +1,4 @@
-//Default Overrides For Styles In Minima 
+//Default Overrides For Styles In Minima
 // If you wish to override any of this CSS, do so in _sass/minima/custom-styles.css
 
 .post img {
@@ -24,7 +24,7 @@ img.emoji{
 .page-content {
         -webkit-font-smoothing: antialiased !important;
         text-rendering: optimizeLegibility !important;
-        font-family: "Segoe UI", SegoeUI, Roboto, "Segoe WP", "Helvetica Neue", "Helvetica", "Tahoma", "Arial", sans-serif !important;
+        font-family: Roboto, sans-serif !important;
 }
 
 // make non-headings slightly lighter
@@ -43,28 +43,28 @@ h1 {
 }
 
 h2 {
-    margin-top:2rem !important;      
+    margin-top:2rem !important;
 }
 
 h3, h4 {
-    margin-top:1.5rem !important;      
+    margin-top:1.5rem !important;
 }
 
 p {
-    margin-top:1rem !important; 
-    margin-bottom:1rem !important;   
+    margin-top:1rem !important;
+    margin-bottom:1rem !important;
 }
 
 h1, h2, h3, h4 {
     font-weight: normal !important;
-    margin-bottom:0.5rem !important;  
+    margin-bottom:0.5rem !important;
     code {
       font-size: 100%;
     }
 }
 
 pre {
-    margin-bottom:1.5rem !important; 
+    margin-bottom:1.5rem !important;
 }
 
 // make sure the post title doesn't have too much spacing
@@ -77,7 +77,7 @@ li {
   }
   .post-meta-description {
     color: rgb(88, 88, 88);
-    font-size: 15px;
+    // font-size: 15px;
     margin-top:.05rem !important;
     margin-bottom:.05rem !important;
   }
@@ -104,7 +104,7 @@ details.description:not([open]) summary::after {
   font-size: 12px !important;
   p, li{
     font-size: 12px !important;
- } 
+ }
 }
 
 // Adjust with of social media icons were getting cut off
@@ -255,4 +255,44 @@ table {
 
 pre code {
   font-size: 15px !important;
+}
+
+// custom style
+body {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.site-header {
+  border: none;
+  background-color: #f4f4f245;
+  padding: 1rem;
+}
+
+.site-title, .site-title:visited {
+  color: #ff8237 !important;
+}
+
+ul.post-list li a.post-link, .site-title {
+  color: #ff8237;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+// .post-meta-description, .post-meta {
+//   font-family: 'Just Another Hand', cursive;
+//   font-size: 1.75rem !important;
+// }
+
+ul.post-list li a.post-link:hover {
+  color: #fa6b16;
+}
+
+// ul.post-list li img.image-preview {
+//   width: 200px;
+//   height: auto;
+// }
+
+.notebook-badge-image {
+  margin-left: unset !important;
 }

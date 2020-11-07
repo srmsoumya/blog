@@ -3,9 +3,10 @@ layout: page
 title: About Me
 permalink: /about/
 ---
+Namaste! I am Soumya Ranjan Mohanty aka SRM.
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
+I work as a Full Stack Data Scientist at [Gramener](https://gramener.com/), India. In my day job, I work at the intersection of AI, GIS & Environment Conservation.
 
+I have a passion for teaching & am a huge believer in free & quality education for all. On weekends, I spend my time mentoring & teaching students about Data Science at [Springboard](http://springboard.com/).
 
-
-[^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
+I love eating pizza & playing football!
